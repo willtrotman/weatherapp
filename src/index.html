@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <h1 id="title">Will's Shitty Fucking Weather Channel</h1>
+      </div>
+      <div class="nav-container">
+        <ul class="tab-list">
+          <a href="#" class="tab">Today</a>
+          <a href="#" class="tab">Hourly</a>
+          <a href="#" class="tab">10 Day</a>
+          <a href="#" class="tab">Weekend</a>
+          <a href="#" class="tab">Monthly</a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-left">
+        <h2 class="location"></h2>
+        <span class="time"></span>
+        <span class="temp"></span>
+        <span class="summary"></span>
+      </div>
+      <div class="container-right">
+        <div class="icons">
+          <div class="icon"></div>
+          <div class="icon icon2"></div>
+        </div>
+        <span class="highlow"></span>
+      </div>
+    </div>
+
+    <div class="container container--details">
+      <h2 class="details-title">Weather Info</h2>
+      <div class="detail">
+        <span class="detail--head highlow-head">High / Low</span>
+        <span class="detail-info highlow highlow-detail"></span>
+      </div>
+      <div class="detail">
+        <span class="detail--head feelslike-head">Feels Like</span>
+        <span class="detail-info feelslike"></span>
+      </div>
+      <div class="detail">
+        <span class="detail--head humidity-head">Humidity</span>
+        <span class="detail-info humidity"></span>
+      </div>
+      <div class="detail">
+        <span class="detail--head pressure-head">Pressure</span>
+        <span class="detail-info pressure"></span>
+      </div>
+      <div class="detail">
+        <span class="detail--head wind-head">Wind</span>
+        <span class="detail-info wind"></span>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
